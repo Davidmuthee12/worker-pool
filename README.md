@@ -1,8 +1,10 @@
 # Go Worker Pool File Processor
 
-A small concurrency project built to practice worker pools, goroutines, and channels.
+A small concurrency project built withy to practice worker pools, goroutines, and channels.
 
 This program creates a fixed number of workers that process a list of file names concurrently.
+
+---
 
 ## Concepts Practiced
 
@@ -41,7 +43,7 @@ This program creates a fixed number of workers that process a list of file names
 
 ### Worker Function
 
-```
+```go id="w5eh9v"
 func worker(id int, jobs <-chan string, results chan<- string)
 ```
 
