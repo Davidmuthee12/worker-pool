@@ -1,6 +1,6 @@
 # Go Worker Pool File Processor
 
-A small concurrency project built withy to practice worker pools, goroutines, and channels.
+A small concurrency project built to practice worker pools, goroutines, and channels.
 
 This program creates a fixed number of workers that process a list of file names concurrently.
 
